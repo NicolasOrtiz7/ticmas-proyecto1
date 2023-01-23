@@ -1,0 +1,15 @@
+/* FOOTER */
+.footer {
+    height: 4rem;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creadapor {
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+}
+.footer ul {display: flex;}
+.footer ul li {padding: 0px 10px 0px 10px;}

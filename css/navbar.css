@@ -1,0 +1,71 @@
+/*  NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.2em 1em;
+  color: #fff;
+}
+
+.navbar ul li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ========================================================================= */
+/* ========================================================================= */
+/* ========================================================================= */
+/* ESTILOS PARA CELULARES  */
+
+@media (max-width: 500px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar ul li {
+    display: inline;
+    margin: 0px;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0;
+    margin: 0px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar ul li a:hover {
+    color: rgba(255, 255, 255, 0.9);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

@@ -1,0 +1,111 @@
+ /* EXPERIENCIA, ESTUDIOS, HABILIDADES BLANDAS, TECNOLOGÍAS Y CONTACTO */
+
+ /* Caja de texto de información */
+ .info {
+     max-width: 65%;
+     max-height: 10rem;
+     display: inline-block;
+     margin: 4px;
+     padding: 1rem 2rem 1rem 1rem;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+
+ /* Íconos */
+ .icon {width: 3rem;}
+
+ /* IMAGENES, NOMBRE Y PROFESIÓN */
+ .img {
+     background-image: url("https://www.fundaciontelefonica.com.ar/wp-content/uploads/2021/05/Introduccion-a-la-programacion-Abril-2560x950-1.jpg");
+     text-align: center;
+     height: 400px;
+     display: flex;
+     align-items: center;
+ }
+
+ .img-perfil {
+     margin: 0 auto;
+     height: 200px;
+     width: 200px;
+     border-radius: 10%;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+
+ .nombre {
+     background-color: #e2e2e2;
+     padding: 40px;
+     height: 100%;
+ }
+
+ .descripcion {
+     /*Sobre mi*/
+     text-align: center;
+     padding-top: 40px;
+     padding-left: 10px;
+     padding-right: 10px;
+     max-width: 60%;
+     margin: 0 auto;
+ }
+
+
+ /* EXPERIENCIA */
+ .experiencia {
+     text-align: center;
+     background-color: #dbdbdb;
+     padding: 40px;
+     height: 100%;
+ }
+
+
+ /* ESTUDIOS */
+ .estudios {
+     text-align: center;
+     background-color: #cfcfcf;
+     padding: 40px;
+     height: 100%;
+ }
+
+
+ /* HABILIDADES BLANDAS */
+ .soft-skills {
+     text-align: center;
+     background-color: #cacaca;
+     padding: 40px;
+     height: 100%;
+ }
+
+ .soft-skills-box {
+     width: 10rem;
+     padding-top: 1rem;
+     display: inline-block;
+ }
+
+ .lista-skills li {
+     padding-top: 1rem;
+     font-size: 1.5rem;
+ }
+
+
+ /* TECNOLOGÍAS */
+ .tecnologias {
+     text-align: center;
+     background-color: #c2c2c2;
+     padding: 40px;
+     height: 100%;
+ }
+
+ .tecnologias-box {
+     width: 5.2rem;
+     padding-top: 1rem;
+     display: inline-block;
+ }
+
+
+ /* CONTACTO */
+ .contacto {
+     text-align: center;
+     background-color: #bdbdbd;
+     padding: 40px;
+     height: 100%;
+ }
+
+ .contacto-box {padding-top: 1rem;}

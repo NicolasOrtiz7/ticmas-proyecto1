@@ -1,0 +1,52 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.1rem;
+}
+html {scroll-behavior: smooth;}
+.container {max-width: 100%;}
+
+/* Fuentes, estilos y listas ul */
+a {
+    /*Links*/
+    color: #4e42d4;
+    text-decoration: none;
+}
+h1 {
+    /*Nombre completo*/
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2 {
+    /*Profesion (programador)*/
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.titulo {
+    /*Letras: exp, est, hab, tec, cont*/
+    font-size: 3rem;
+    font-family: 'Fredoka One';
+    color: #4e42d4;
+}
+ul {list-style: none;}
+p {font-family: 'Questrial', sans-serif;}
+.profesion {font-size: 2rem;}
+
+/* ========================================================================= */
+/* ========================================================================= */
+/* ========================================================================= */
+/*  BOTONES */
+.boton {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.color-1 {background-color: #2c2c2c;}
